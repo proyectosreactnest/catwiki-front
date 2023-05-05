@@ -17,8 +17,16 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    /* Routing */
+    "baseUrl": "./src",
+    "paths": {
+      "@/components/*": ["components/*"],
+      "@/pages/*": ["pages/*"],
+      "@/redux/*": ["redux/*"]
+    }
   },
-  "include": ["src"],
+  "include": ["src", "__test__/hello.test.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

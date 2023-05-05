@@ -17,7 +17,7 @@
 - React v18.2
 - Typescript
 - Eslint, husky y prettier
-- Jest y Testing library
+- Vitest y Testing library
 - Redux toolkit
 - CI/CD
 - Docker
@@ -29,6 +29,10 @@
 - Instalar [yarn](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable)
 
 ## Pasos para correr el proyecto localmente
+
+Una ves que ya se tenga instalado nvm ejecutar el siguiente comando 
+
+`nvm use <node_version>`, para saber la version de node del proyecto deber ver el archivo .nvmrc en la raiz del proyecto y poner esa versión.  
 
 Para instalar las dependencias
 `yarn install`
