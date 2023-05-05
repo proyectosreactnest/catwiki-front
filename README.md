@@ -30,9 +30,9 @@
 
 ## Pasos para correr el proyecto localmente
 
-Una ves que ya se tenga instalado nvm ejecutar el siguiente comando 
+Una ves que ya se tenga instalado nvm ejecutar el siguiente comando
 
-`nvm use <node_version>`, para saber la version de node del proyecto deber ver el archivo .nvmrc en la raiz del proyecto y poner esa versión.  
+`nvm use <node_version>`, para saber la version de node del proyecto deber ver el archivo .nvmrc en la raiz del proyecto y poner esa versión.
 
 Para instalar las dependencias
 `yarn install`

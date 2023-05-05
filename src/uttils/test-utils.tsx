@@ -4,9 +4,11 @@ import { render, type RenderOptions } from "@testing-library/react";
 import { store } from "@/redux/store/store";
 import { Provider } from "react-redux";
 
-const AllTheProviders = ({ children }: { children: React.ReactNode }):JSX.Element => (
-  <Provider store={store}>{children}</Provider>
-);
+const AllTheProviders = ({
+  children,
+}: {
+  children: React.ReactNode;
+}): JSX.Element => <Provider store={store}>{children}</Provider>;
 
 const customRender = (
   ui: ReactElement,
