@@ -1,0 +1,25 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "standard-with-typescript",
+    "prettier"
+  ],
+  "overrides": [],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "project": ["tsconfig.json"],
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {},
+  "ignorePatterns": ["src/vite-env.d.ts", "commitlint.config.js"],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}
