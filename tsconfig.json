@@ -27,6 +27,6 @@
       "@/redux/*": ["redux/*"]
     }
   },
-  "include": ["src", "__test__/hello.test.ts"],
+  "include": ["src", "__test__/hello.test.ts","mocks/server/server.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
