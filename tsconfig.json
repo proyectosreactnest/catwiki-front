@@ -24,9 +24,15 @@
     "paths": {
       "@/components/*": ["components/*"],
       "@/pages/*": ["pages/*"],
-      "@/redux/*": ["redux/*"]
+      "@/redux/*": ["redux/*"],
+      "@/utils/*": ["utils/*"]
     }
   },
-  "include": ["src", "__test__/hello.test.ts", "mocks/server/server.ts"],
+  "include": [
+    "src",
+    "__test__/hello.test.ts",
+    "mocks/server/server.ts",
+    "vite.config.ts"
+  ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
