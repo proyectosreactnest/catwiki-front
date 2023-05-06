@@ -3,6 +3,8 @@ WORKDIR /app
 COPY package.json .
 COPY yarn.lock .
 RUN yarn install
-COPY . .
-CMD ["yarn", "dev"]
+COPY src/ ./src/
+COPY public/ ./public/ 
+COPY mocks/ ./mocks/
 EXPOSE 3000
+CMD ["yarn","run","dev"]

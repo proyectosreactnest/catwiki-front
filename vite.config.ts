@@ -8,4 +8,8 @@ export default defineConfig({
   resolve: {
     alias: [{ find: "@", replacement: path.resolve(__dirname, "./src") }],
   },
+  server:{
+  port: import.meta.env.VITE_PORT
+
+  }
 });
