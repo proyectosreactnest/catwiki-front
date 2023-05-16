@@ -17,7 +17,12 @@
     "sourceType": "module"
   },
   "plugins": ["react"],
-  "ignorePatterns": ["src/vite-env.d.ts", "commitlint.config.js"],
+  "ignorePatterns": [
+    "src/vite-env.d.ts",
+    "",
+    "commitlint.config.js",
+    "env.d.ts"
+  ],
   "settings": {
     "react": {
       "version": "detect"

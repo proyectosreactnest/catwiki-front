@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "lib": ["DOM", "DOM.Iterable", "ESNext", "WebWorker"],
     "module": "ESNext",
     "skipLibCheck": true,
 
@@ -26,13 +26,15 @@
       "@/pages/*": ["pages/*"],
       "@/redux/*": ["redux/*"],
       "@/utils/*": ["utils/*"]
-    }
+    },
+    "types": ["vite/client"]
   },
   "include": [
     "src",
     "__test__/hello.test.ts",
     "mocks/server/server.ts",
-    "vite.config.ts"
+    "vite.config.ts",
+    "env.d.ts"
   ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
