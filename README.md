@@ -48,5 +48,3 @@ Para correr el proyecto localmente
 
 - [Walter Daniel](https://www.linkedin.com/in/wdanielaguilar/)
 - Nahuel Galeano
-
-
