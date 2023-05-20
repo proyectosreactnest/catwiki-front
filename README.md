@@ -44,7 +44,60 @@ Para correr el proyecto localmente
 
 - Se esta optando realizar el despliegue de la web en vercel
 
+## RAMAS
+
+* MAIN -> Rama de producción -> vercel
+* DEVELOP -> Rama de desarrollo
+  * feature/CC-10 -> Rama para leer la documentacion de la api
+  * feature/**
+  * feature/CC-20 -> CI/CD para la automatizacion de deployment continuo
+
+# COMANDOS ÚTILES
+  git stash save -u // poner en una papelera
+
 ## Colaboradores
 
 - [Walter Daniel](https://www.linkedin.com/in/wdanielaguilar/)
 - Nahuel Galeano
+
+buenas practicas
+
+* que sean entendibles
+* camelCase
+
+* GIT HOOKS -> GIT
+
+  * githook pre commit -> para cuando generes tu commit
+  * githook commit-msg -> para cuando quieras poner un mensaje en tu commit
+  * githook pre push -> para cuando quieras pushear tus cambios
+
+  * commitlint -> te da un estandar conventional-commit de angular
+
+    * feat: alguna feature(de tu proyecto)
+    * docs: para documentacion(readme.md)
+    * ci: para continuos integration/ CD
+    * test: para archivos testing
+    * style: para formateo de codigo
+    ... others
+
+por ejemplo
+
+git commit -m "un mensaje que quiero subir";
+
+con el estandar conventional-commit
+
+git commit -m "feat: add home page"
+
+
+por detras se ejecuta el husky -> para automatizar
+  * formateo de codigo
+  * linteo de codigo(estilo de código)
+
+
+
+
+
+
+
+
+
