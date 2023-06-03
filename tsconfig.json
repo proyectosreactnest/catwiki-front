@@ -31,7 +31,7 @@
   },
   "include": [
     "src",
-    "__test__/hello.test.ts",
+    "__test__",
     "mocks/server/server.ts",
     "vite.config.ts",
     "env.d.ts"
